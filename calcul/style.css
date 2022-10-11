@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 115%;
+    font-family: 'Abyssinica SIL', serif;
+}
+.fon {
+    background-color: darkblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.cal {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 400px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(226, 165, 43);
+}
+.wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.eq {
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+    cursor: pointer;
+}
+.cl {
+    height: 80px;
+    width: 80px;
+    background-color: chocolate;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cl:hover {
+    background-color: coral;
+}
+.cl:active {
+    background-color: rgb(239, 170, 121);
+}
+.text {
+    background-color:aliceblue;
+    width: 250px;
+    height: 50px;
+    margin-right: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.cl1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cl:not(:last-child) {
+    margin-right: 10px;
+}
+.eq:hover {
+    background-color: coral;
+}
+.eq:active {
+    background-color: rgb(239, 170, 121);
+}
